@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto";
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    border: 2px solid;
+    background-color: white;
+    color: black;
+    display: grid;
+    max-width: 100%;
+    width: 430px;
+    max-height: 100%;
+    height: 400px;
+    padding: 50px;
+    border-radius: 25px;
+    border: none;
+    .messageSuccess{
+        font-size: 3em;
+    }
+    .messageComand{
+        p{
+            font-size: 20px;
+        }
+        
+    }
+}
+button{
+    color: white;
+    border: none;
+    background-color: hsl(235, 18%, 26%);
+    width: 400px;
+    height: 43px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-image: linear-gradient(to right, rgb(255,105,180), rgb(255,140,0));
+}
